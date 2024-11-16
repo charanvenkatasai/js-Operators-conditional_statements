@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // ***************************************Arithmetic Operators
+let a = 10;
+let b = 3;
+
+let sum = a + b;          // Addition
+let difference = a - b;   // Subtraction
+let product = a * b;      // Multiplication
+let quotient = a / b;     // Division
+let remainder = a % b;    // Modulus
+let power = a ** b;       // Exponentiation (ES6)
+let floorDivision = Math.floor(a / b); // Floor Division
+
+console.log("Arithmetic Operators:");
+console.log("Sum:", sum);              // 13
+console.log("Difference:", difference); // 7
+console.log("Product:", product);       // 30
+console.log("Quotient:", quotient);     // 3.3333...
+console.log("Remainder:", remainder);   // 1
+console.log("Power:", power);           // 1000
+console.log("Floor Division:", floorDivision); // 3
+
+// **********************************************Comparison Operators
+let isEqual = a == b;           // Equal
+let isNotEqual = a != b;        // Not Equal
+let isGreater = a > b;          // Greater Than
+let isLess = a < b;             // Less Than
+let isGreaterOrEqual = a >= b;  // Greater Than or Equal
+let isLessOrEqual = a <= b;     // Less Than or Equal
+
+console.log("\nComparison Operators:");
+console.log("Is Equal:", isEqual);           // false
+console.log("Is Not Equal:", isNotEqual);    // true
+console.log("Is Greater:", isGreater);        // true
+console.log("Is Less:", isLess);              // false
+console.log("Is Greater or Equal:", isGreaterOrEqual); // true
+console.log("Is Less or Equal:", isLessOrEqual);       // false
+
+// ************************************************Logical Operators
+let x = true;
+let y = false;
+
+let andResult = x && y;    // AND
+let orResult = x || y;     // OR
+let notResult = !x;        // NOT
+
+console.log("\nLogical Operators:");
+console.log("AND Result:", andResult); // false
+console.log("OR Result:", orResult);   // true
+console.log("NOT Result:", notResult); // false
+
+// *******************************Assignment Operators
+let z = 5;
+z += 3; // z = z + 3
+z -= 2; // z = z - 2
+z *= 2; // z = z * 2
+z /= 4; // z = z / 4
+z %= 3; // z = z % 3
+
+console.log("\nAssignment Operators:");
+console.log("Final value of z:", z); // 1
+
+// *********************************************************************conditional statements
+// if
+let Age = 20;
+
+if (Age >= 18) {
+    console.log("You are an adult.");
+}
+
+// if else
+let age = 16;
+
+if (age >= 18) {
+    console.log("You are an adult.");
+} else {
+    console.log("You are a minor.");
+}
+
+// if-elif-else
+let score = 85;
+
+if (score >= 90) {
+    console.log("Grade: A");
+} else if (score >= 80) {
+    console.log("Grade: B");
+} else if (score >= 70) {
+    console.log("Grade: C");
+} else {
+    console.log("Grade: F");
+}
+
+// switch stmnts
+let fruit = "apple";
+
+switch (fruit) {
+    case "banana":
+        console.log("You chose a banana.");
+        break;
+    case "apple":
+        console.log("You chose an apple.");
+        break;
+    case "orange":
+        console.log("You chose an orange.");
+        break;
+    default:
+        console.log("Unknown fruit.");
+}
+
+
+    </script>
+</body>
+</html>
